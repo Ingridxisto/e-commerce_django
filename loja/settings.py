@@ -34,18 +34,16 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'produto',
+    'pedido',
+    'perfil',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
-
-
-
     # TODO: Remover debug_toolbar em produção
-    'debug_toolbar',
+    'debug_toolbar'
 ]
 
 MIDDLEWARE = [
